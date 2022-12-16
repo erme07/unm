@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/768709101c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body class="container">
     <header class="header">
         <div class="header__content">
-            <img class="logo" src="img/UNM_blue_logo.jpg" alt="">
-            <div class="search-box"></div>
-            <p class="slogan"></p>
+            <a href="" class="logo"><img title="Universidad Nacional de Moreno" src="img/UNM_blue_logo.jpg" alt=""></a>
+            <div class="search">
+                <form action="" class="search__box">
+                    <label for="" class="search__label"><i class="fa-solid fa-magnifying-glass"></i></label>
+                    <input type="search" class="search__input" maxlength="200" size="45" placeholder="Buscar...">
+                </form>
+            </div>
+            <p class="slogan">Nuestro derecho, nuestro lugar, nuestro futuro...</p>
         </div>
         <div class="header__colors">
             <div class="color"></div>
@@ -22,8 +28,32 @@
             <div class="color"></div>
         </div>
     </header>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+    <nav class="nav"></nav>
+    <main class="main"></main>
+    <footer class="footer">
+        <section>
+            <a class="footer__btn" title="Como Llegar" href=""><i class="fa-solid fa-location-dot"></i></a>
+            <a class="footer__btn" title="Contacto" href=""><i class="fa-solid fa-envelope"></i></a>
+            <a class="footer__btn" title="Instagram" href=""><i class="fa-brands fa-instagram"></i></a>
+            <a class="footer__btn" title="Facebook" href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="footer__btn" title="Twitter" href=""><i class="fa-brands fa-twitter"></i></a>
+            <a class="footer__btn" title="Youtube" href=""><i class="fa-brands fa-youtube"></i></a>
+        </section>
+        <section>
+            <span>UNM - 2018</span>
+        </section>
+        <section>
+            <div>
+               <p>Universidad Nacional de Moreno</p> 
+               <p>Av. Bmé. Mitre Nº 1891, Moreno (B1744OHC)</p>
+               <p>Provincia de Buenos Aires</p>
+               <p>Teléfonos:&nbsp;&nbsp;&nbsp;&nbsp;0237 460-9300 (líneas rotativas)</p>
+               <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;011 2078-9170 (líneas rotativas)</p> 
+               <p>unm@unm.edu.ar | info@unm.edu.ar</p>
+               <p>ISSN 2422-7684</p>
+            </div>
+            <img src="img/UNM_bicentenario.png" alt="">
+        </section>
+    </footer>
 </body>
 </html>
