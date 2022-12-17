@@ -49,6 +49,7 @@
 }
 .logo{
     grid-area: logo;
+    width: 106px;
 }
 .search{
     grid-area: search;
@@ -397,4 +398,38 @@
 
 .navigation-visibility .slide-icon.active{
     color:#838383;
+}
+
+/*::::::::: NAV ::::::::::::::*/
+
+.nav{
+    padding: 0px 10px;
+    color: white;
+}
+.nav i{
+    font-size: 10px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.menu li{
+    height: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 7px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.menu li:first-child{
+    padding: 0px 20px;
+}
+.menu li:hover, .menu li.active{
+    background-color: rgba(255, 255, 255, 0.096);
 }
