@@ -19,11 +19,13 @@
 }
 .container{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333333;
     width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
+/*:::::::::: HEADER :::::::::::::*/
 
 .header{
     width: 100%;
@@ -118,6 +120,8 @@
     background-color: var(--color5);
 }
 
+/*:::::::::::::: MENU NAV ::::::::::::::::::::*/
+
 .nav{
     width: 100%;
     height: 32px;
@@ -166,6 +170,9 @@
 .block--2 .block__item:hover{
     background-color: #6c7ee2;
 }
+.block--3{
+    justify-content: space-evenly;
+}
 .selector{
     width: 100%;
     display: flex;
@@ -198,8 +205,60 @@
     background-color: #e2e7f2;
     padding: 25px 0px;
 }
-.block--3{
+.block--news{
     justify-content: space-evenly;
+    position: relative;
+    padding-bottom: 20px;
+}
+.news{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.news__title{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+}
+.news__excerpt{
+    font-size: 14px;
+}
+.news__more{
+    position: absolute;
+    bottom:-10px;
+    right:20px;
+}
+.sector{
+    width: 20%;
+}
+.sector img{
+    width: 100%;
+}
+.block--agenda{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 30px;
+}
+.block--agenda p{
+    font-size: 14px;
+}
+.block--agenda a{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.block--agenda a:hover{
+    text-decoration: underline;
+}
+.block--3, .block--news, .block--agenda{
+    display: none;
+    opacity: 0;
+}
+.selected{
+    display: flex;
+    opacity: 1;
 }
 /*:::::::::::::::: FOOTER ::::::::::::::::::::*/
 

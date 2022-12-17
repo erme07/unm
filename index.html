@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/768709101c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Universidad Nacional de Moreno</title>
 </head>
 <body class="container">
     <header class="header">
@@ -35,19 +35,61 @@
             <a href=""><img src="img/COVID19.jpg" alt=""></a>
         </section>
         <section class="selector">
-            <div class="selector__options">
-                <span data-option="a" class="active">Novedades académicas</span>
-                <span data-option="b">Noticias</span>
-                <span data-option="c">Departamentos</span>
-                <span data-option="d">Agenda</span>
+            <div class="selector__options" name="dd">
+                <span data-option="0" class="active">Novedades académicas</span>
+                <span data-option="1">Noticias</span>
+                <span data-option="2">Departamentos</span>
+                <span data-option="3">Agenda</span>
             </div>
             <div class="selector__content">
-                <div class="block block--3">
+                <div class="block block--3 selected">
                     <a href="" title="Ingresantes"><img src="img/Novedades_Ingresantes.jpg" alt=""></a>
                     <a href="" title="Alumnos"><img src="img/Novedades_Estudiantes.jpg" alt=""></a>
                     <a href="" title="Docentes"><img src="img/Novedades_Docentes_2.jpg" alt=""></a>
                 </div>
+                <div class="block block--news">
+                    <div class="news">
+                        <a href=""><img title="El Consejo Superior de la UNM aprobó la nueva carrera de Abogacía" src="img/news_a.jpg" alt=""></a>
+                        <h2 class="news__title">El Consejo Superior de la UNM aprobó la nueva carrera de Abogacía</h2>
+                        <p class="news__excerpt">El pasado miércoles 30 de noviembre, el Consejo Superior de la UNM llevó adelante su sesión ordinaria 70, en la...</p>
+                    </div>
+                    <div class="news">
+                        <a href=""><img title="Graduadas de Comunicación Social de la UNM fueron premiadas" src="img/news_b.jpg" alt=""></a>
+                        <h2 class="news__title">Graduadas de Comunicación Social de la UNM fueron premiadas</h2>
+                        <p class="news__excerpt">En el marco del Concurso Federal de Comunicación sobre Acceso Igualitario a la Salud Menstrual, graduadas de la UNM lograron el...</p>
+                    </div>
+                    <div class="news">
+                        <a href=""><img title="La UNM comenzará una nueva etapa del Programa de Evaluación Institucional" src="img/news_c.jpg" alt=""></a>
+                        <h2 class="news__title">La UNM comenzará una nueva etapa del Programa de Evaluación...</h2>
+                        <p class="news__excerpt">La Universidad Nacional de Moreno finalizó el proceso de evaluación del Programa de Evaluación Institucional (PEI) y comenzará con el...</p>
+                    </div>
+                    <div class="news">
+                        <a href=""><img title="La UNM firmó un convenio con el Sindicato de Trabajadores de Moreno" src="img/news_d.jpg" alt=""></a>
+                        <h2 class="news__title">La UNM firmó un convenio con el Sindicato de Trabajadores de...</h2>
+                        <p class="news__excerpt">Este martes 6 de diciembre, la UNM, representada por su Rector Hugo Andrade, firmó un Convenio Marco de Cooperación con...</p>
+                    </div>
+                    <a href="" class="news__more">Mas Noticias</a>
+                </div>
+                <div class="block block--3">
+                    <div class="sector">
+                        <a href=""><img src="img/DCAyT.jpg" alt=""></a>
+                    </div>
+                    <div class="sector">
+                        <a href=""><img src="img/DEyA.jpg" alt=""></a>
+                    </div>
+                    <div class="sector">
+                        <a href=""><img src="img/DHyCS.jpg" alt=""></a>
+                    </div>
+                    <div class="sector">
+                        <a href=""><img src="img/Posgrado.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="block block--agenda">
+                    <p>Sin eventos</p>
+                    <a href="">Ver el calendario completo</a>
+                </div>
             </div>
+            
         </section>
         <section class="block">
             <div class="block__item">
@@ -112,5 +154,6 @@
             <img src="img/UNM_bicentenario.png" alt="">
         </section>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
