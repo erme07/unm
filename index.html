@@ -29,6 +29,7 @@
         </div>
     </header>
     <nav class="nav">
+        <div class="menu-toggle"><i class="fa-solid fa-bars" id="button_toggle"></i></div>
         <ul class="menu">
             <li class="active">
                 <i class="fa-solid fa-house"></i>
@@ -80,20 +81,20 @@
         <section class="banner">
             <a href=""><img src="img/COVID19.jpg" alt=""></a>
         </section>
-        <section class="selector">
-            <div class="selector__options" name="dd">
-                <span data-option="0" class="active">Novedades académicas</span>
-                <span data-option="1">Noticias</span>
-                <span data-option="2">Departamentos</span>
-                <span data-option="3">Agenda</span>
+        <section class="tabs">
+            <div class="tabs__options" name="dd">
+                <div data-option="0" class="active">Novedades académicas</div>
+                <div data-option="1">Noticias</div>
+                <div data-option="2">Departamentos</div>
+                <div data-option="3">Agenda</div>
             </div>
-            <div class="selector__content">
-                <div class="block block--3 selected">
+            <div class="tabs__content">
+                <div class="novedades selected">
                     <a href="" title="Ingresantes"><img src="img/Novedades_Ingresantes.jpg" alt=""></a>
                     <a href="" title="Alumnos"><img src="img/Novedades_Estudiantes.jpg" alt=""></a>
                     <a href="" title="Docentes"><img src="img/Novedades_Docentes_2.jpg" alt=""></a>
                 </div>
-                <div class="block block--news">
+                <div class="noticias">
                     <div class="news">
                         <a href=""><img title="El Consejo Superior de la UNM aprobó la nueva carrera de Abogacía" src="img/news_a.jpg" alt=""></a>
                         <h2 class="news__title">El Consejo Superior de la UNM aprobó la nueva carrera de Abogacía</h2>
@@ -116,7 +117,7 @@
                     </div>
                     <a href="" class="news__more">Mas Noticias</a>
                 </div>
-                <div class="block block--3">
+                <div class="departamentos">
                     <div class="sector">
                         <a href=""><img src="img/DCAyT.jpg" alt=""></a>
                     </div>
@@ -130,14 +131,14 @@
                         <a href=""><img src="img/Posgrado.jpg" alt=""></a>
                     </div>
                 </div>
-                <div class="block block--agenda">
+                <div class="agenda">
                     <p>Sin eventos</p>
                     <a href="">Ver el calendario completo</a>
                 </div>
             </div>
             
         </section>
-        <section class="block">
+        <section class="block-col-2">
             <div class="block__item">
                 <h2 class="block__title">Abierta la inscripción</h2>
                 <a href=""><img src="img/8_convocatoria_287x160.jpg" alt=""></a>
@@ -147,27 +148,27 @@
                 <a href=""><img src="img/slides_afip_287x160.jpg" alt=""></a>
             </div>
         </section>
-        <section class="block block--1">
-            <div class="block__item">
+        <section class="videos">
+            <div>
                 <h4 class="block__title">Institucional</h4>
-                <iframe width="300" height="170" src="https://www.youtube.com/embed/VCsY_i5ZeKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/VCsY_i5ZeKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="block__item">
+            <div>
                 <h4 class="block__title">Nuevo edificio Dorrego II</h4>
-                <iframe width="300" height="170" src="https://www.youtube.com/embed/k3O_gXiS6c0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/k3O_gXiS6c0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="block__item">
+            <div>
                 <h4 class="block__title">Nuevas obras ESPUNM</h4>
-                <iframe width="300" height="170" src="https://www.youtube.com/embed/0u7Na-0x3TM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/0u7Na-0x3TM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
-        <section class="block">
+        <section class="block-col-4">
             <a href=""><img src="img/Galera-de-fotos.png" alt=""></a>
             <a href=""><img src="img/logo_conosur_fa.jpg" alt=""></a>
             <a href=""><img src="img/placa-ESPUNM.png" alt=""></a>
             <a href=""><img src="img/gestion-online.jpg" alt=""></a>
         </section>
-        <section class="block block--2">
+        <section class="block-col-5">
             <a href="" class="block__item"><img src="img/logo_ciudad_unm_tv_3.png" alt=""></a>
             <a href="" class="block__item"><img src="img/logo_ciudad_radio_3.png" alt=""></a>
             <a href="" class="block__item"><img src="img/logo_unm_editora_4.png" alt=""></a>
