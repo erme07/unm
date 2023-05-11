@@ -3,7 +3,7 @@ const option = document.querySelector(".tabs__options"),
     menu = document.querySelector(".menu"),
 
     slider = document.querySelector(".slider"),
-    slides = document.querySelector(".slides"),
+    slides = document.querySelector(".slider__content"),
     slider_nav= document.querySelector(".slider__nav"),
     numberOfSlides = slides.childElementCount;
 
