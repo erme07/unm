@@ -168,6 +168,45 @@
   background-color: rgba(255, 255, 255, 0.096);
 }
 
+
+.submenu{
+  position: absolute;
+  background-color: white;
+  color: black;
+  z-index: 2;
+  top: 100%;
+  right: 0;
+  width: 200px;
+  overflow: hidden;
+  opacity: 0;
+  cursor: auto;
+  font-size: 14px;
+  /* visibility: hidden; */
+  pointer-events: none;
+  transition: opacity 400ms;
+}
+.submenu ul{
+  list-style: none;
+  padding: 20px;
+  margin-top: -100%;
+  transition: margin 400ms;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.submenu li:hover{
+  background-color: #6c7ee2;
+  color: white;
+}
+.menu li:hover .submenu{
+  opacity: 1;
+  pointer-events: visible;
+}
+.menu li:hover .submenu ul{
+  margin-top: 0;
+}
 /*::::::::::::::::: MAIN :::::::::::::::::::::*/
 
 .main {
@@ -208,7 +247,7 @@
 .next-btn {
   position: absolute;
   top: 123px;
-  z-index: 999;
+  z-index: 1;
   font-size: 24px;
   font-weight: bold;
   color: #222;
@@ -229,7 +268,7 @@
   background-color: rgba(255, 255, 255, 0.822);
 }
 .slider__nav {
-  z-index: 999;
+  z-index: 1;
   display: flex;
   flex-direction: row;
   gap: 5px;
